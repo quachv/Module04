@@ -1,0 +1,72 @@
+*{
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center; 
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: violet;
+}
+
+h1{
+  color: black;
+  font-family: 'ShwumatikRegular';
+  font-weight: bold;
+}
+
+#content {
+  overflow: auto;
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+#feature{
+  background-color: #f0e68c;
+  background-image: url(http://laoblogger.com/images/star-clipart-black-and-white-translucent-background-6.jpg); 
+  background-size: contain;
+  background-position: right;
+  background-repeat:no-repeat;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+
+.column1{
+  background-color: lightblue;  
+}
+
+.column2{
+  background-color: lightgreen;
+}
+
+.column3 {
+  margin-right: 0%;
+  background-color: pink;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav, #footer {
+  background-color: white;
+  padding: 0.5em 0;
+  background-color: lavender;
+}
+
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+}
+
+body{
+  background-image:url("http://sfwallpaper.com/images/backgrounds-stars-21.jpg");
+}
